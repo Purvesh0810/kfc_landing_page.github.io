@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KFC Landing Page</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/1973334178.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
+
+  <style>
+    .av-link dropdown-toggle {
+      color: black !important;
+      font-size: larger !important;
+      font-weight: bold !important;
+      padding: 5px !important;
+    }
+
+    .nav-link {
+      color: black !important;
+      font-size: larger !important;
+      font-weight: 600 !important;
+      padding: 5px !important;
+    }
+
+    body {
+      font-family: 'Onest', sans-serif;
+    }
+
+    .dropdown-menu {
+      background-color: #db2437;
+    }
+
+    #tag {
+      padding: 23px !important;
+      margin-bottom: 1px !important;
+    }
+
+    #menu {
+      font-size: xx-large !important;
+      font-weight: bolder !important;
+      padding: 40px;
+      margin-bottom: 1px;
+    }
+
+    .carousel {
+      margin-bottom: 1px !important;
+    }
+
+    .container-fluid1 {
+      /* border: solid red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #db2437;
+      padding: 45px;
+    }
+
+    .card {
+      /* border: solid green; */
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      margin-bottom: 50px;
+    }
+
+    .card:hover {
+      rotate: 10deg;
+      transition: all ease-in .3s;
+      box-shadow: 20px 20px 25px black;
+
+    }
+
+    @media screen and (min-width: 377px) and (max-width: 689px) {
+      .container-fluid1 {
+        padding: 70px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Navbar Starts -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="https://pngimg.com/d/kfc_PNG53.png" height="10%" width="10%"
+          alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              KFC Service
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Delivery <i class="fa-solid fa-motorcycle"></i></a></li>
+              <li><a class="dropdown-item" href="#">Dine In <i class="fa-solid fa-utensils"></i></a></li>
+              <li><a class="dropdown-item" href="#">Take Away <i class="fa-solid fa-box"></i></a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Tag Starts -->
+  <div class="bg-dark text-center" id="tag">
+    <h5 class="text-light">ORDER FOR DELIVERY, DINE-IN, OR TAKE AWAY</h5>
+    <button class="btn btn-danger" id="button-tag">ORDER NOW</button>
+  </div>
+  <!-- Tag End -->
+
+  <!-- Slide Starts -->
+  <div id="carouselExampleIndicators" class="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://cdn.zoutons.com/images/originals/blog/1682676130405.jpg_1682676131.png" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.zoutons.com/images/originals/blog/1-KFC_1679048643.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.zoutons.com/images/originals/blog/1682676217692.jpg_1682676218.png" class="d-block w-100"
+          alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Slide End -->
+
+  <!-- Menu Start -->
+  <h1 class="text-light bg-dark text-center" id="menu">MENU</h1>
+  <!-- Menu End -->
+
+  <!-- Card Start -->
+  <div class="container-fluid1 text-center" class="card">
+    <div class="row">
+      <div class="col 4">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT158.jpg?ver=35.11"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="#" class="btn btn-outline-danger">BOX MEAL</a>
+          </div>
+        </div>
+      </div>
+      <div class="col 4">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT99.jpg?ver=35.11"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="#" class="btn btn-outline-danger">BURGERS</a>
+          </div>
+        </div>
+      </div>
+      <div class="col 4">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT86.jpg?ver=35.11"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="#" class="btn btn-outline-danger">CHICKEN BUCKET</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Card End -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
